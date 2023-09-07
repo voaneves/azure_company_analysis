@@ -36,11 +36,11 @@
         <li><a href="#technologies-used">Technologies Used</a></li>
       </ul>
     </li>
-    <li><a href="#project-structure">Features</a></li>
-    <li><a href="#methodology">Features</a></li>
-    <li><a href="#challenges-and-solutions">Features</a></li>
-    <li><a href="#results">Features</a></li>
-    <li><a href="#getting-started">Getting started</a></li>
+    <li><a href="#project-structure">Project Structure</a></li>
+    <li><a href="#methodology">Methodology</a></li>
+    <li><a href="#powerbi-actions-and-analysis">PowerBI Actions and Analysis</a></li>
+    <li><a href="#attachments">Attachments</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#to-do">To Do</a></li>
     <li><a href="#reporting-bugs">Reporting Bugs</a></li>
     <li><a href="#license">License</a></li>
@@ -55,7 +55,7 @@
   </a>
 </p>
 
-This repository offers an in-depth analysis of a company's data, which is hosted on Azure's MySQL database and visualized using PowerBI. It's a deliverable of the Santander Bootcamp 2023 Data Science with Python project. The full instructions are [here]().
+This repository offers an in-depth analysis of a company's data, which is hosted on Azure's MySQL database and visualized using PowerBI. It's a deliverable of the Santander Bootcamp 2023 Data Science with Python project. The full instructions are [here](https://github.com/voaneves/azure_company_analysis/blob/main/Processando%20e%20Transformando%20Dados%20com%20Power%20BI/Desafio%20de%20Projeto%20-%20Processando%20e%20Transformando%20Dados%20com%20Power%20BI%20-%20Instru%C3%A7%C3%B5es.docx).
 
 The primary objective of this project is to seamlessly execute the following operations:
 
@@ -93,6 +93,10 @@ The project uses the following technologies:
 - README.md
 
 ## Methodology
+
+The database is described as follows:
+
+![img/database_relations.png](https://github.com/voaneves/azure_company_analysis)
 
 First, let's create the database itself. We'll temporarily name it test_company and then rename it to 
 
@@ -526,7 +530,7 @@ Min Salary = CALCULATE(
 ## Attachments
 
 - [PowerBI Service](https://app.powerbi.com/groups/me/reports/bcd5989a-4eb6-4dc8-ad22-2be03c33fdc3?pbi_source=desktop)
-- [GitHub PBIX File]()
+- [GitHub PBIX File](https://github.com/voaneves/azure_company_analysis/blob/main/Processando%20e%20Transformando%20Dados%20com%20Power%20BI/Azure%20Company%20Analysis%20%40voaneves.pbix)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
