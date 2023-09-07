@@ -16,7 +16,7 @@
   </a>
   <h3 align="center">azure_company_analysis</h3>
   <p align="center">
-    A complete financial analysis on PowerBI.
+    Analysis of a company's data, which is hosted on Azure's MySQL database and visualized using PowerBI.
     <br />
     <a href="https://github.com/voaneves/azure_company_analysis"><strong>Explore the documentation »</strong></a>
     <br />
