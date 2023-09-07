@@ -9,12 +9,12 @@ CREATE DATABASE azure_company;
 
 Now, let's create the tables required for our schema.
 
-### CREATE TABLE EMPLOYEE
+### Create table EMPLOYEE
 
 Here, we create an EMPLOYEE table to store information about each employee in the company.
 
 ```SQL 
-CREATE TABLE EMPLOYEE
+Create table EMPLOYEE
 (Fname VARCHAR(15) NOT NULL,
  Minit CHAR,
 Lname VARCHAR(15) NOT NULL,
@@ -28,12 +28,12 @@ Dno INT NOT NULL,
 PRIMARY KEY (Ssn) );
 ```
 
-### CREATE TABLE DEPARTMENT
+### Create table DEPARTMENT
 
 This table stores information about the various departments within the company.
 
 ```SQL
-CREATE TABLE DEPARTMENT
+Create table DEPARTMENT
 (Dname VARCHAR(15) NOT NULL, 
 Dnumber INT NOT NULL,
 Mgr_ssn CHAR(9) NOT NULL,
@@ -43,24 +43,24 @@ UNIQUE(Dname),
 FOREIGN KEY(Mgr_ssn)REFERENCES EMPLOYEE(Ssn) );
 ```
 
-### CREATE TABLE DEPT_LOCATIONS
+### Create table DEPT_LOCATIONS
 
 A department can have multiple locations, which is what this table represents.
 
 ```SQL
-CREATE TABLE DEPT_LOCATIONS
+Create table DEPT_LOCATIONS
 ( Dnumber INT NOT NULL,
 Dlocation VARCHAR(15) NOT NULL,
 PRIMARY KEY(Dnumber, Dlocation),
 FOREIGN KEY(Dnumber) REFERENCES DEPARTMENT(Dnumber) );
 ```
 
-### CREATE TABLE PROJECT
+### Create table PROJECT
 
 This table contains details about the projects undertaken by the company.
 
 ```SQL
-CREATE TABLE PROJECT
+Create table PROJECT
 ( Pname VARCHAR(15) NOT NULL,
 Pnumber INT NOT NULL,
 Plocation VARCHAR(15),
@@ -70,12 +70,12 @@ UNIQUE (Pname),
 FOREIGN KEY(Dnum) REFERENCES DEPARTMENT(Dnumber) );
 ```
 
-### CREATE TABLE WORKS_ON
+### Create table WORKS_ON
 
 This table links employees with the projects they are working on.
 
 ```SQL
-CREATE TABLE WORKS_ON
+Create table WORKS_ON
 ( Essn CHAR(9) NOT NULL,
 Pno INT NOT NULL,
 Hours DECIMAL(3,1) NOT NULL,
@@ -84,12 +84,12 @@ FOREIGN KEY(Essn) REFERENCES EMPLOYEE(Ssn),
 FOREIGN KEY (Pno) REFERENCES PROJECT(Pnumber) );
 ```
 
-### CREATE TABLE DEPENDENT
+### Create table DEPENDENT
 
 
 
 ```SQL
-CREATE TABLE DEPENDENT
+Create table DEPENDENT
 ( Essn CHAR(9) NOT NULL,
 Dependent_name VARCHAR(15) NOT NULL,
 Sex CHAR,
@@ -169,7 +169,7 @@ insert into WORKS_ON values(987987987,10,35);
 insert into WORKS_ON values(987987987,30,5);
 ```
 
-### ADD FORIGN KEY (DNO) TO EMPLOYEE
+### Add FOREIGN KEY (DNO) to EMPLOYEE
 
 
 
