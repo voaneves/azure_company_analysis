@@ -50,9 +50,7 @@
 ## About the project
 
 <p align="center">
-  <a href="https://voaneves.com/azure_company_analysis">
-    <img alt="Website Image" src="img/azure_company_analysis.png" />
-  </a>
+    <img alt="Report Image" src="img/azure_company_analysis.png" />
 </p>
 
 This repository offers an in-depth analysis of a company's data, which is hosted on Azure's MySQL database and visualized using PowerBI. It's a deliverable of the Santander Bootcamp 2023 Data Science with Python project. The full instructions are [here](https://github.com/voaneves/azure_company_analysis/blob/main/Processando%20e%20Transformando%20Dados%20com%20Power%20BI/Desafio%20de%20Projeto%20-%20Processando%20e%20Transformando%20Dados%20com%20Power%20BI%20-%20Instru%C3%A7%C3%B5es.docx).
@@ -99,9 +97,7 @@ The project uses the following technologies:
 The database is described as follows:
 
 <p align="center">
-  <a href="https://voaneves.com/azure_company_analysis">
-    <img alt="Website Image" src="img/database_relations.png" />
-  </a>
+    <img alt="Database Relations" src="img/database_relations.jpg" />
 </p>
 
 First, let's create the database itself. 
