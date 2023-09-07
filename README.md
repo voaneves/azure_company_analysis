@@ -96,9 +96,13 @@ The project uses the following technologies:
 
 The database is described as follows:
 
-![img/database_relations.png](https://github.com/voaneves/azure_company_analysis)
+<p align="center">
+  <a href="https://voaneves.com/azure_company_analysis">
+    <img alt="Website Image" src="database_relations.png" />
+  </a>
+</p>
 
-First, let's create the database itself. We'll temporarily name it test_company and then rename it to 
+First, let's create the database itself. 
 
 ```SQL
 -- Create the database called azure_company
