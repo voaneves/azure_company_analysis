@@ -100,7 +100,7 @@ The database is described as follows:
 
 <p align="center">
   <a href="https://voaneves.com/azure_company_analysis">
-    <img alt="Website Image" src="database_relations.png" />
+    <img alt="Website Image" src="img/database_relations.png" />
   </a>
 </p>
 
