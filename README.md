@@ -92,6 +92,8 @@ The project uses the following technologies:
 - LICENSE
 - README.md
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Methodology
 
 The database is described as follows:
@@ -409,6 +411,8 @@ from works_on where (pno , hours) in ( select pno , hours
 
 ---
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## PowerBI Actions and Analysis
 
 This section outlines the series of actions performed in PowerBI to clean, transform, and analyze the data from the azure_company database. Each step is crucial for ensuring data integrity and for preparing the data for meaningful analysis.
@@ -530,6 +534,8 @@ Min Salary = CALCULATE(
     ALLEXCEPT('Mescla Employee-Department', 'Mescla Employee-Department'[Salary])
 )
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Attachments
 
