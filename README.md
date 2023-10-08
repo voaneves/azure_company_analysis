@@ -97,7 +97,7 @@ The project uses the following technologies:
 The database is described as follows:
 
 <p align="center">
-    <img alt="Database Relations" src="img/database_relations.jpg" />
+    <img alt="Database Relations" src="img/database_relations.png" />
 </p>
 
 First, let's create the database itself. 
