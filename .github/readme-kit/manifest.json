@@ -1,0 +1,57 @@
+{
+  "repo": "azure_company_analysis",
+  "branch": "main",
+  "lang": "en",
+  "license": "MIT",
+  "name": "Azure Company Analysis",
+  "tagline": "Analyzes a fictional company's data, stored in Azure MySQL and visualized in Power BI.",
+  "description": "Power BI analysis of a fictional company's data hosted on Azure MySQL, with schema, SQL queries and dashboard.",
+  "logo": {
+    "mark": "Az"
+  },
+  "buttons": [
+    {
+      "id": "landing",
+      "text": "View landing page",
+      "kind": "primary",
+      "font": "sans",
+      "href": "https://voaneves.github.io/azure_company_analysis/",
+      "landing": false
+    },
+    {
+      "id": "report",
+      "text": "Download the .pbix",
+      "kind": "secondary",
+      "href": "https://github.com/voaneves/azure_company_analysis/raw/main/Processando%20e%20Transformando%20Dados%20com%20Power%20BI/Azure%20Company%20Analysis%20%40voaneves.pbix",
+      "landing_kind": "primary",
+      "font": "sans"
+    },
+    {
+      "id": "hire",
+      "text": "Let's talk",
+      "kind": "primary",
+      "font": "sans",
+      "href": "https://voaneves.com/en/#contact",
+      "landing": false
+    },
+    {
+      "id": "site",
+      "text": "voaneves.com",
+      "kind": "secondary",
+      "font": "sans",
+      "href": "https://voaneves.com/en/",
+      "landing": false
+    }
+  ],
+  "features": [
+    "Database schema with EMPLOYEE, DEPARTMENT, PROJECT and related tables.",
+    "Example SQL queries listed in collapsible sections.",
+    "Power BI dashboard with slicers, navigation buttons and visual switching."
+  ],
+  "image": {
+    "src": "https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/img/azure_company_analysis.png",
+    "alt": "Power BI report of the fictional company data analysis"
+  },
+  "landing": true,
+  "live_url": "https://voaneves.github.io/azure_company_analysis/"
+}

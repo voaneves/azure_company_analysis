@@ -1,74 +1,71 @@
-<a name="readme-top"></a>
+<a id="top"></a>
+
 <div align="center">
-  
-  [![Contributors][contributors-shield]][contributors-url]
-  [![Forks][forks-shield]][forks-url]
-  [![Stargazers][stars-shield]][stars-url]
-  [![Issues][issues-shield]][issues-url]
-  [![MIT License][license-shield]][license-url]
-  [![LinkedIn][linkedin-shield]][linkedin-url]
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/logo/logo-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/logo/logo-light.svg" />
+  <img alt="Azure Company Analysis logo: the monogram Az" src="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/logo/logo-light.svg" width="112" height="112" />
+</picture>
+
+<h1>Azure Company Analysis</h1>
+
+<p>
+  <strong>Analyzes a fictional company's data, stored in Azure MySQL and visualized in Power BI.</strong><br />
+  <sub>SQL schema, queries and a Power BI report</sub>
+</p>
+
+<p>
+  <a href="https://voaneves.github.io/azure_company_analysis/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/buttons/landing-dark.svg" /><img alt="View landing page" src="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/buttons/landing-light.svg" height="40" /></picture></a>
+  <a href="https://github.com/voaneves/azure_company_analysis/raw/main/Processando%20e%20Transformando%20Dados%20com%20Power%20BI/Azure%20Company%20Analysis%20%40voaneves.pbix"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/buttons/report-dark.svg" /><img alt="Download the .pbix" src="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/buttons/report-light.svg" height="40" /></picture></a>
+</p>
+
+<p><sub>Need something like this? <a href="https://voaneves.com/en/#contact"><strong>Let's talk →</strong></a></sub></p>
+
+<p>
+  <a href="https://github.com/voaneves/azure_company_analysis/blob/main/LICENSE"><img src="https://img.shields.io/github/license/voaneves/azure_company_analysis?style=flat-square&color=0A0A0A" alt="MIT License" /></a>
+  <img src="https://img.shields.io/badge/Power%20BI-MySQL%20on%20Azure-b80000?style=flat-square" alt="Power BI and MySQL on Azure" />
+  <a href="https://github.com/voaneves/azure_company_analysis/issues"><img src="https://img.shields.io/github/issues/voaneves/azure_company_analysis?style=flat-square&color=0A0A0A" alt="Open issues" /></a>
+</p>
+
+<p>
+  <a href="#about-the-project">About</a> ·
+  <a href="#methodology">Methodology</a> ·
+  <a href="#power-bi-actions-and-analysis">Power BI</a> ·
+  <a href="#getting-started">Getting started</a> ·
+  <a href="#contact">Contact</a>
+</p>
 
 </div>
-<br />
-<div align="center">
-  <a href="https://github.com/voaneves/azure_company_analysis">
-    <img src="img/azure_company_analysis-logo.png" alt="Logo" width="80" height="80">
-  </a>
-  <h3 align="center">azure_company_analysis</h3>
-  <p align="center">
-    Analysis of a fictional company's data, which is hosted on Azure's MySQL database and visualized using PowerBI.
-    <br />
-    <a href="https://github.com/voaneves/azure_company_analysis"><strong>Explore the documentation »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/voaneves/azure_company_analysis/issues">Report a Bug</a>
-    ·
-    <a href="https://github.com/voaneves/azure_company_analysis/issues">Request a Feature</a>
-  </p>
-</div>
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About the Project</a>
-      <ul>
-        <li><a href="#technologies-used">Technologies Used</a></li>
-      </ul>
-    </li>
-    <li><a href="#project-structure">Project Structure</a></li>
-    <li><a href="#methodology">Methodology</a></li>
-    <li><a href="#powerbi-actions-and-analysis">PowerBI Actions and Analysis</a></li>
-    <li><a href="#attachments">Attachments</a></li>
-    <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#to-do">To Do</a></li>
-    <li><a href="#reporting-bugs">Reporting Bugs</a></li>
-    <li><a href="#license">License</a></li>
-  </ol>
-</details>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/brand/rule-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/brand/rule-light.svg" />
+  <img alt="" src="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/brand/rule-light.svg" width="100%" />
+</picture>
 
 ## About the project
 
+This project loads a fictional company's employee, department and project data into a MySQL database on Azure and turns it into an interactive Power BI report.
+
 <p align="center">
-    <img alt="Report Image" src="img/azure_company_analysis.png" />
+  <img alt="Power BI report of the fictional company data analysis" src="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/img/azure_company_analysis.png" width="100%" />
 </p>
 
-This repository offers an in-depth analysis of a company's data, which is hosted on Azure's MySQL database and visualized using PowerBI. It's a deliverable of the Santander Bootcamp 2023 Data Science with Python project. The full instructions are [here](https://github.com/voaneves/azure_company_analysis/blob/main/Processando%20e%20Transformando%20Dados%20com%20Power%20BI/Desafio%20de%20Projeto%20-%20Processando%20e%20Transformando%20Dados%20com%20Power%20BI%20-%20Instru%C3%A7%C3%B5es.docx).
+Built as a deliverable of the Santander Bootcamp 2023 (Data Science with Python). The challenge instructions are [here](https://github.com/voaneves/azure_company_analysis/blob/main/Processando%20e%20Transformando%20Dados%20com%20Power%20BI/Desafio%20de%20Projeto%20-%20Processando%20e%20Transformando%20Dados%20com%20Power%20BI%20-%20Instru%C3%A7%C3%B5es.docx).
 
-The primary objective of this project is to seamlessly execute the following operations:
+The project covers four steps:
 
 - [X] Create the database schema.
 - [X] Extract relevant data.
 - [X] Transform this data for analytical purposes.
-- [X] Visualize the transformed data using PowerBI.
+- [X] Visualize the transformed data using Power BI.
 
-Key points to pay attention to:
+Key points:
 - **Structured Design**: The layout is systematically organized for easy navigation and interpretation.
-- **Navigational Aids**: Interactive buttons are incorporated to enhance user navigation within the PowerBI dashboard.
+- **Navigational Aids**: Interactive buttons are incorporated to enhance user navigation within the Power BI dashboard.
 - **Dynamic Slicers and Image Buttons**: Utilized slicers along with associated image buttons for a more interactive and intuitive filtering experience.
 - **Visual Switching**: Implemented indicators and buttons to toggle between different visual representations of the same dataset.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Technologies Used
 
@@ -78,9 +75,7 @@ The project uses the following technologies:
 
 - MySQL: A widely-used open-source relational database management system that is not exclusive to Microsoft. It is known for its speed, reliability, and ease of use. While it is often used in conjunction with Azure, it is not provided by Microsoft on the Power BI website.
 
-- PowerBI Desktop: A powerful business analytics tool by Microsoft that allows you to visualize your data and share insights across your organization, or embed them in an app or website. It offers a desktop-based interface for creating reports and dashboards. While the desktop version is free to use, online publishing and sharing of reports are features available only to Power BI Pro users.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- Power BI Desktop: A powerful business analytics tool by Microsoft that allows you to visualize your data and share insights across your organization, or embed them in an app or website. It offers a desktop-based interface for creating reports and dashboards. While the desktop version is free to use, online publishing and sharing of reports are features available only to Power BI Pro users.
 
 ## Project Structure
 
@@ -90,14 +85,12 @@ The project uses the following technologies:
 - LICENSE
 - README.md
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Methodology
 
 The database is described as follows:
 
 <p align="center">
-    <img alt="Database Relations" src="img/database_relations.png" />
+    <img alt="Database relations diagram of the azure_company schema" src="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/img/database_relations.png" width="100%" />
 </p>
 
 First, let's create the database itself. 
@@ -275,37 +268,31 @@ This section provides a collection of SQL queries commonly used in the azure_com
 
 <details>
 <summary> Q1.retrieve the Salary of every employee </summary>
-  
+
 ```SQL
 select salary from employee;
 ```
 </details>
 
----
-
 <details>
 <summary> Q2.retrieve all distinct Salary values </summary>
-  
+
 ```SQL
 select distinct salary from employee;
 ```
 </details>
 
----
-
 <details>
 <summary> Q3.retrieve the birth date and address of the employee(s) whose name is "John" </summary>
-  
+
 ```SQL
 select Bdate , address from employee where Fname = "john";
 ```
 </details>
 
----
-
 <details>
 <summary> Q4.For each employee, retrieve the employee’s first and last name and the first and last name of his or her immediate supervisor </summary>
-  
+
 ```SQL
 select E.fname as "employee first name" , E.lname as "employee last name" , S.fname as "manager first name", S.lname as "manager last name"
 from employee as E , employee as S
@@ -317,58 +304,48 @@ where E.Super_ssn = S.ssn;
 
 <details>
 <summary> Q5.retrieve all info of employees who work in department 5 </summary>
-  
+
 ```SQL
 select * from employee where Dno = 5;
 ```
 </details>
 
----
-
 <details>
 <summary> Q6.retrieve all info of employees whose addresses contains Houston </summary>
-  
+
 ```SQL
 select * from employee where address like '%Houston%';
 ```
 </details>
 
----
-
 <details>
 <summary> Q7.retrieve all info of employees whose salaries between 40000 and 30000 </summary>
-  
+
 ```SQL
 select * from employee where Salary between 30000 and 40000;
 ```
 </details>
 
----
-
 <details>
 <summary> Q8.retrieve first name of all employees ordered alphabetically  </summary>
-  
+
 ```SQL
 select fname from employee order by Fname asc;
 ```
 </details>
 
----
-
 <details>
 <summary> Q9.retrieve names of all employees who do not have supervisor </summary>
-  
+
 ```SQL
 select fname from employee where Super_ssn is null;
 
 ```
 </details>
 
----
-
 <details>
 <summary> Q10.retrieve name of every employee whose Salary is greater than all the salaries of employees in department 5 </summary>
-  
+
 ```SQL
 select fname ,Salary
 from employee 
@@ -379,23 +356,19 @@ where salary > All ( select salary
 ```
 </details>
 
----
-
 <details>
 <summary> Q11.max , min , avg , sum ,count </summary>
-  
+
 ```SQL
 SELECT SUM(Salary), MAX(Salary), MIN(Salary), AVG(Salary) , count(salary)
 FROM	EMPLOYEE;
 ```
 </details>
 
----
-
 <details>
 <summary> Q12.select the Essns of all employees who work the same (project, hours) combination on some project 
 that employee ‘John Smith’ (whose Ssn = ‘123456789’) works on  </summary>
-  
+
 ```SQL
 select distinct Essn 
 from works_on where (pno , hours) in ( select pno , hours
@@ -405,13 +378,9 @@ from works_on where (pno , hours) in ( select pno , hours
 ```
 </details>
 
----
+## Power BI actions and analysis
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## PowerBI Actions and Analysis
-
-This section outlines the series of actions performed in PowerBI to clean, transform, and analyze the data from the azure_company database. Each step is crucial for ensuring data integrity and for preparing the data for meaningful analysis.
+This section outlines the series of actions performed in Power BI to clean, transform, and analyze the data from the azure_company database. Each step is crucial for ensuring data integrity and for preparing the data for meaningful analysis.
 
 ### Data Preparation Steps
 
@@ -437,7 +406,7 @@ This section outlines the series of actions performed in PowerBI to clean, trans
 
 10. **Remove Unnecessary Columns**: Eliminate columns that are not essential for further analysis.
 
-11. **Join Employees and Manager Names**: This can be done either using SQL queries or by merging tables in PowerBI. If SQL is used, specify the query in the README.
+11. **Join Employees and Manager Names**: This can be done either using SQL queries or by merging tables in Power BI. If SQL is used, specify the query in the README.
 
 12. **Merge First and Last Names**: Combine the first and last names into a single column to represent each employee's full name.
 
@@ -531,73 +500,43 @@ Min Salary = CALCULATE(
 )
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Attachments
 
-- [PowerBI Service](https://app.powerbi.com/groups/me/reports/bcd5989a-4eb6-4dc8-ad22-2be03c33fdc3?pbi_source=desktop)
+- [Power BI Service](https://app.powerbi.com/groups/me/reports/bcd5989a-4eb6-4dc8-ad22-2be03c33fdc3?pbi_source=desktop) (requires a Power BI account)
 - [GitHub PBIX File](https://github.com/voaneves/azure_company_analysis/blob/main/Processando%20e%20Transformando%20Dados%20com%20Power%20BI/Azure%20Company%20Analysis%20%40voaneves.pbix)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Getting started
 
-1. Clone this repository to your machine:
-
-   ```bash
-   git clone https://github.com/your-username/azure_company_analysis.git
-
-   ```
-
-2. Open the index.html file in a web browser.
-
-3. Use the mouse to select colors while moving it.
-
-4. If you click on the selected color, a sliding notification will appear and show which color you selected and copy it to the clipboard.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+1. Download [`Azure Company Analysis @voaneves.pbix`](https://github.com/voaneves/azure_company_analysis/raw/main/Processando%20e%20Transformando%20Dados%20com%20Power%20BI/Azure%20Company%20Analysis%20%40voaneves.pbix) and open it in Power BI Desktop (Windows).
+2. To rebuild the database, run the SQL from [Methodology](#methodology) on a MySQL server, such as Azure Database for MySQL.
+3. Point the report's data source to your server and refresh.
 
 ## To do
 
-- [ ] Add more pages;
-- [ ] Better design the report structure and make the "toggle button" more functional.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- [ ] Add more pages.
+- [ ] Make the "toggle button" more functional and improve the report structure.
 
 ## Reporting bugs
 
-Found a bug or issue in the project? Follow the steps below:
+1. Check whether the bug is already in [Issues](https://github.com/voaneves/azure_company_analysis/issues).
+2. If not, open a new issue with a clear title and the steps to reproduce it.
+3. If possible, include screenshots or the query that fails.
 
-1. Check if the bug has already been reported in our "Issues" section on GitHub: link to Issues.
+Pull requests are welcome.
 
-2. If you don't find an existing report about the bug, click on "New Issue" to open a new bug report.
+## Contact
 
-3. Provide a clear and descriptive title for the bug, along with a detailed description of the steps needed to reproduce it.
+<p>
+  <a href="https://voaneves.com/en/#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/buttons/hire-dark.svg" /><img alt="Let's talk" src="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/buttons/hire-light.svg" height="40" /></picture></a>
+  <a href="https://voaneves.com/en/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/buttons/site-dark.svg" /><img alt="voaneves.com" src="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/buttons/site-light.svg" height="40" /></picture></a>
+</p>
 
-4. If possible, include screenshots, relevant code snippets, or any other information that may help identify and resolve the bug.
+<a href="https://linkedin.com/in/voaneves">LinkedIn</a> · <a href="mailto:victorneves478@gmail.com">E-mail</a>
 
-5. Click on "Submit Issue" to create the bug report.
+<p align="center">
+  <img alt="VOANEVES mark" src="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/brand/mark-duo.svg" width="32" height="32" />
+</p>
 
-Thank you for reporting bugs! If you would like to contribute with code, you can open a PR, and your participation is more than welcome.
+<p align="center"><sub>Released under the <a href="https://github.com/voaneves/azure_company_analysis/blob/main/LICENSE">MIT License</a>.</sub></p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## License
-
-This project is licensed under the [MIT License](/LICENSE).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-[contributors-shield]: https://img.shields.io/github/contributors/voaneves/azure_company_analysis.svg?style=for-the-badge
-[contributors-url]: https://github.com/voaneves/azure_company_analysis/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/voaneves/azure_company_analysis.svg?style=for-the-badge
-[forks-url]: https://github.com/voaneves/azure_company_analysis/network/members
-[stars-shield]: https://img.shields.io/github/stars/voaneves/azure_company_analysis.svg?style=for-the-badge
-[stars-url]: https://github.com/voaneves.com/azure_company_analysis/stargazers
-[issues-shield]: https://img.shields.io/github/issues/voaneves/azure_company_analysis.svg?style=for-the-badge
-[issues-url]: https://github.com/voaneves/azure_company_analysis/issues
-[license-shield]: https://img.shields.io/github/license/voaneves/azure_company_analysis.svg?style=for-the-badge
-[license-url]: https://github.com/voaneves/azure_company_analysis/blob/main/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/voaneves
-[azure_company_analysis-logo]: img/azure_company_analysis-logo.png
+<p align="center"><sub><a href="#top">↑ Back to top</a></sub></p>
