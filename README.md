@@ -5,7 +5,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/logo/logo-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/logo/logo-light.svg" />
-  <img alt="Azure Company Analysis logo: the monogram Az" src="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/logo/logo-light.svg" width="112" height="112" />
+  <img alt="Azure Company Analysis logo: a database feeding a rising trend line, with a red dot for the insight" src="https://raw.githubusercontent.com/voaneves/azure_company_analysis/main/assets/logo/logo-light.svg" width="112" height="112" />
 </picture>
 
 <h1>Azure Company Analysis</h1>

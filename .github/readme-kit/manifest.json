@@ -7,6 +7,7 @@
   "tagline": "Analyzes a fictional company's data, stored in Azure MySQL and visualized in Power BI.",
   "description": "Power BI analysis of a fictional company's data hosted on Azure MySQL, with schema, SQL queries and dashboard.",
   "logo": {
+    "glyph": "pipeline",
     "mark": "Az"
   },
   "buttons": [
